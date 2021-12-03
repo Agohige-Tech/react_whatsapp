@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Need to fix
-- [ ] Data pull from firebase to display the room text.
+- [x] Data pull from firebase to display the room text.
 
 ## Available Scripts
 
