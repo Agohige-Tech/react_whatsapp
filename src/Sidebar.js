@@ -9,7 +9,7 @@ import SidebarChat from "./SidebarChat";
 import db from "./firebase";
 import { useStateValue } from "./StateProvider";
 
-function Sidebar() {
+function Sidebar(props) {
   const [rooms, setRooms] = useState([]);
   const [{ user }, dispatch] = useStateValue();
 
@@ -53,7 +53,7 @@ function Sidebar() {
       <div className="sidebar_chats">
         <SidebarChat addNewChat />
         {rooms.map((room) => (
-          <SidebarChat key={rooms.id} id={rooms.id} name={room.data.name} />
+          <SidebarChat key={room.id} id={room.id} name={room.data.name} />
         ))}
       </div>
     </div>

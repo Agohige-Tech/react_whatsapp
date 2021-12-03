@@ -41,7 +41,9 @@
 }
 
 .chat_timestamp {
-  margin-left: 10px;
+  display: flex;
+  margin-left: 1px;
+  padding-top: 3px;
   font-size: xx-small;
 }
 
