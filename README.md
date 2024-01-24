@@ -1,5 +1,5 @@
 # Deployed At:
-[Here](https://agohige-messaging.web.app) & [Here](https://agohige-messaging.firebase.com)
+No longer deployed, archived content.
 
 # Getting Started with Create React App
 
